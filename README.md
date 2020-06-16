@@ -18,5 +18,11 @@ The following packages/modules are used in the project:
 * [Time](https://docs.python.org/3/library/time.html)
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
+During the project, I found the following online resources very useful to complete the project. 
+
+* [Udacity Git Commit Message Style Guide](https://udacity.github.io/git-styleguide/)
+* [Mastering Markdown](https://guides.github.com/features/mastering-markdown/)
+* [What to Write in README.md File](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/about-readmes)
+* [to_datetime](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.to_datetime.html) method
+* [Pandas API](https://pandas.pydata.org/pandas-docs/stable/reference/index.html)
 
