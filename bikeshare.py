@@ -162,8 +162,10 @@ def user_stats(df, city):
     user_types_count = df['User Type'].value_counts()
     print('User Type Count \n', user_types_count)
     print()
-    # Display counts of gender
-    if city != 'washington': # Gender and Birth Year columns are not presented in washington.csv file
+    # Display counts of gender, but skip this calculations for Washington 
+    # because Gender and Birth Year columns are not presented in 
+    # washington.csv file which will otherwise throw errors.
+    if city != 'washington': 
         gender_count = df['Gender'].value_counts()
         print('Gender Count\n', gender_count)
         print()
@@ -190,8 +192,8 @@ def main():
         user_stats(df, city)
         
         display_dataset = input('\nWould you like to see 5 lines of raw data? Enter yes or no.\n')
-        if display_dataset.lower() == 'yes':
         # display 5 rows of the dataset until the user enters no or the rows have reached the end. 
+        if display_dataset.lower() == 'yes':        
             start_idx = 0
             end_idx   = 5
             while end_idx <= df.shape[0]:                               
