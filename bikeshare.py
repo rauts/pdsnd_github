@@ -161,8 +161,10 @@ def user_stats(df, city):
     user_types_count = df['User Type'].value_counts()
     print('User Type Count \n', user_types_count)
     print()
-    # Display counts of gender
-    if city != 'washington': # Gender and Birth Year columns are not presented in washington.csv file
+    # Display counts of gender, but skip this calculations for Washington 
+    # because Gender and Birth Year columns are not presented in 
+    # washington.csv file which will otherwise throw errors.
+    if city != 'washington': 
         gender_count = df['Gender'].value_counts()
         print('Gender Count\n', gender_count)
         print()
