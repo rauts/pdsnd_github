@@ -7,7 +7,8 @@
 **Explore US Bikeshare Data**
 
 ### Description
-Describe what your project is about and what it does
+The project is about exploring data related to bike share system for three major cities in the United States - Chicago, New York, and Washington, making use of Python. The project answers interesting questions such as what is the most popular times of travel (month, day, etc.)?, what are popular stations and trip? and which age group (bike riders) are more common? by computing descriptive statistics. Interestingly, the project is written in a python script that takes in a raw input from user to create an interactive experience in the terminal to present these statistics.
+
 
 ### Files used
 Include the files used
