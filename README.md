@@ -11,7 +11,11 @@ The project is about exploring data related to bike share system for three major
 
 
 ### Files used
-Include the files used
+The following packages/modules are used in the project:
+
+* [Numpy](https://numpy.org/doc/stable/user/quickstart.html)
+* [Pandas](https://pandas.pydata.org/pandas-docs/stable/user_guide/index.html)
+* [Time](https://docs.python.org/3/library/time.html)
 
 ### Credits
 It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
