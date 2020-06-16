@@ -191,8 +191,8 @@ def main():
         user_stats(df, city)
         
         display_dataset = input('\nWould you like to see 5 lines of raw data? Enter yes or no.\n')
-        if display_dataset.lower() == 'yes':
         # display 5 rows of the dataset until the user enters no or the rows have reached the end. 
+        if display_dataset.lower() == 'yes':        
             start_idx = 0
             end_idx   = 5
             while end_idx <= df.shape[0]:                               
